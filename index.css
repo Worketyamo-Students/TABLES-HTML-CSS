@@ -32,16 +32,20 @@ td {
 }
 
 table {
+  overflow: hidden;
   width: 80%;
   height: 80%;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   background-color: var(--bg-color);
+  border-radius: 20px;
 }
 
-caption {
+h1 {
   font-size: 40px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
+
 .jours {
   background-color: var(--primary-color);
   color: #ffffff;
