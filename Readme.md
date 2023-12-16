@@ -8,3 +8,5 @@ Ce repository renferme l'implementation du design du tableau realiser la dernier
 2. couleur secondaire: #89CFF3 
 3. couleur tertiare: #A0E9FF
 
+# Notes : 
+### 13/20
