@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,600;1,800&display=swap');
+
 /* création des variables */
 :root {
   --primary-color: #00a9ff;
@@ -11,21 +13,38 @@
   margin: 0;
   border: 0;
 }
+body {
+    font-family: poppins;
+}
 /* tracer des bordures du tableaux */
-table,
-tr,
-td {
+table,tr,td {
   border: solid 2px;
-
   border-collapse: collapse;
+  font-size: 18px;
+
+}
+td{
+    text-align: center;
+    width: 100px;
+    height: 15px;
+
+
 }
 
 table {
   width: 80%;
   height: 80%;
   margin:0 auto;
+  background-color: var(--ternary-color);
 }
+
 caption {
     font-size: 40px;
     font-weight: bold;
+}
+.jours {
+    background-color: var(--primary-color);
+}
+.heures {
+    background-color: var(  --secondary-color);
 }
