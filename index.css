@@ -1,13 +1,31 @@
 /* création des variables */
 :root {
-    --primary-color: #00A9FF;
-    --secondary-color: #89CFF3;
-    --ternary-color: #A0E9FF;
+  --primary-color: #00a9ff;
+  --secondary-color: #89cff3;
+  --ternary-color: #a0e9ff;
 }
 
 /* Annulation de toutes les valeurs par défaut de la box model des éléments html */
 * {
-    padding: 0;
-    margin: 0; 
-    border: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+/* tracer des bordures du tableaux */
+table,
+tr,
+td {
+  border: solid 2px;
+
+  border-collapse: collapse;
+}
+
+table {
+  width: 80%;
+  height: 80%;
+  margin:0 auto;
+}
+caption {
+    font-size: 40px;
+    font-weight: bold;
 }
