@@ -1,3 +1,13 @@
-h1 {
-    color: blue;
+/* création des variables */
+:root {
+    --primary-color: #00A9FF;
+    --secondary-color: #89CFF3;
+    --ternary-color: #A0E9FF;
+}
+
+/* Annulation de toutes les valeurs par défaut de la box model des éléments html */
+* {
+    padding: 0;
+    margin: 0; 
+    border: 0;
 }
